@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(24, 1, 45, 0.998);
+    color: aliceblue;
+}
+.header {
+    margin-top: 5rem;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.btn_container {
+    margin-top: 5rem;
+    width: 100%;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .btn_opacity{
+    opacity: 0.5;
+ }
+.btn_anterior {
+    
+    cursor: pointer;
+    border: none;
+    width: 110px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: firebrick;
+    color: azure;
+    font-weight: bold;
+}
+.btn_finalizar {
+    cursor: pointer;
+    border: none;
+    width: 110px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: rgb(222, 255, 4);
+    color: rgb(0, 18, 18);
+    font-weight: bold;
+}

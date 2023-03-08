@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(24, 1, 45, 0.998);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.form__container {
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(77, 230, 0);
+    border-radius: 1rem;
+    box-shadow:  3px 5px 20px rgb(29, 248, 0);
+    height: auto;
+}
+
+.form_containers_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_label{
+    display: flex;
+    align-self:self-start;
+}
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.forms_inputs {
+    padding-left: 0.5rem;
+    border: none;
+    width: 350px;
+    height: 25px;
+    border-radius: 0.5rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+ 
+}
+
+.btn_form {
+    display: flex;
+    gap: 0.5rem;
+    width: 350px;
+    height: 60px;
+    justify-content: center;
+    border: none;
+}
+ .btn_opacity{
+    opacity: 0.5;
+ }
+.btn_adicionar {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(15, 143, 15);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+}
+
+.btn_cancelar {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(206, 2, 2);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.form_error {
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 25px;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 12px;
+}
